@@ -61,9 +61,9 @@ Due to the lack of working credentials, some functionalities like SSO and MFA co
 
 ## Limitations
 
-- Captcha:
+# Captcha:
 - Real Captcha functionality is not accessible for automated testing; only logical scenarios are verified.
-- Google Login:
+# Google Login:
 - Tested through mocked API responses (active in the `login.cy.js` file).
 - SSO Login:
 - Testing could not be performed due to the absence of working credentials.
